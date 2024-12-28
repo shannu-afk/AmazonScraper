@@ -1,8 +1,11 @@
 Amazon Best Sellers Scraper
-Description
+
+Description:
+
 This Python-based scraper is designed to extract detailed information from Amazon's Best Sellers section, focusing on products with discounts greater than 50%. The scraper performs authentication, handles CAPTCHA challenges, and retrieves data for products in 10 different categories. The extracted information is then stored in a structured format (CSV/JSON).
 
 Key Features:
+
 Authentication:
 
 The scraper uses valid Amazon credentials to log in. If a CAPTCHA is encountered, the script will pause and allow the user to complete the CAPTCHA manually before resuming the scraping process.
@@ -12,15 +15,9 @@ Scrape top-selling products in 10 categories (for example: Kitchen, Shoes, Compu
 For each product, collect the following details:
 Product Name
 Product Price
-Sale Discount
-Best Seller Rating
-Ship From (e.g., Amazon or third-party seller)
-Sold By (vendor or Amazon)
 Product Rating
 Product Description
-Number Bought in the Past Month (if available)
-Category Name
-All Available Images
+
 Error Handling:
 
 The scraper includes robust error handling to deal with interruptions, page load issues, or missing data during the scraping process.
